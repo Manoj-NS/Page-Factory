@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="test.CreateLead_Positive">
+        <methods>
+          <include name="AfterMethod"/>
+          <include name="test" invocation-numbers="0 1"/>
+          <include name="setData"/>
+          <include name="BeforeMethod"/>
+        </methods>
+      </class> <!-- test.CreateLead_Positive -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
